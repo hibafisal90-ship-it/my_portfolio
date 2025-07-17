@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>تواصل معي | هبة الله فيصل مصطفى</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to bottom right, #ff9a9e, #fad0c4);
+      color: #4b004f;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    form {
+      background-color: #ffffffcc;
+      padding: 20px;
+      border-radius: 20px;
+      max-width: 500px;
+      margin: auto;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      text-align: right;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      margin-bottom: 15px;
+      font-family: inherit;
+    }
+
+    button {
+      background-color: #f48fb1;
+      color: white;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #ec407a;
+    }
+
+    .info {
+      margin: 30px auto;
+      font-size: 18px;
+      background-color: #ffffffaa;
+      padding: 15px;
+      border-radius: 15px;
+      max-width: 500px;
+    }
+
+    nav {
+      margin: 30px 0;
+    }
+
+    nav a {
+      display: inline-block;
+      margin: 10px 15px;
+      padding: 10px 20px;
+      background-color: #ffffff55;
+      color: #4b004f;
+      text-decoration: none;
+      border-radius: 25px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #ffffffaa;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 14px;
+      color: #4b004f;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- شريط التنقل -->
+  <nav>
+    <a href="index.html">الرئيسية</a>
+    <a href="about.html">عنّي</a>
+    <a href="works.html">الأعمال</a>
+    <a href="tools.html">البرامج الحسابية</a>
+    <a href="contact.html">تواصل</a>
+  </nav>
+
+  <h1>تواصل معي</h1>
+
+  <!-- نموذج تواصل -->
+  <form onsubmit="alert('تم إرسال الرسالة بنجاح!'); return false;">
+    <label for="name">الاسم:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">البريد الإلكتروني:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">الرسالة:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">إرسال</button>
+  </form>
+
+  <!-- معلومات التواصل -->
+  <div class="info">
+    <p>📧 البريد الإلكتروني: <strong>hibafisal90@gmail.com</strong></p>
+    <p>📱 رقم الهاتف: <strong>+249901736347</strong></p>
+  </div>
+
+  <!-- شريط تنقل آخر الصفحة -->
+  <nav>
+    <a href="index.html">الرئيسية</a>
+    <a href="about.html">عنّي</a>
+    <a href="works.html">الأعمال</a>
+    <a href="tools.html">البرامج الحسابية</a>
+    <a href="contact.html">تواصل</a>
+  </nav>
+
+  <footer>
+    &copy; 2025 هبة الله فيصل مصطفى. جميع الحقوق محفوظة.
+  </footer>
+
+</body>
+</html>
